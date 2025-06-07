@@ -19,7 +19,10 @@ export class AuthService {
         name: user.name,
         id: user.id,
       },
-      { secret: this.configService.get('JWT_SECRET') },
+      {
+        secret:
+          'akhjoigjqbjk(*&*&&¨((*&(&(*&¨*hiufgebm,nuvhlcf325er2(*¨%$¨&(*(ayj',
+      },
     );
   }
 
